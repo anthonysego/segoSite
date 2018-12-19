@@ -11,7 +11,8 @@
 	<script src="js/jquery.waypoints.min.js" type="text/javascript"></script>
 	<script src="js/waypoints.js" type="text/javascript"></script>
 	<link rel="stylesheet" href="node_modules/aos/dist/aos.css" />
-	<script src="node_modules/aos/dist/aos.js"></script>  	
+	<script src="node_modules/aos/dist/aos.js"></script>
+	<script src="js/sego.js" type="text/javascript"></script>  	
 </head>
 
 <body>
@@ -24,15 +25,33 @@
 				</section>
 
 				<section class="os-animation" data-os-animation="bounceInLeft" data-os-animation-delay=".5s">
-					<a class="btn" href="#"> I'm Anthony Sego </a>
+					<div class="popup" onClick="popFunction()"> I'm Anthony Sego 
+						<div class="popupimg" id="pixelMe">
+							<img src="pixelme.png">
+						</div>
+					</div>
 				</section>
 
 			</div>
 		</div>
 	</section>
 
-	<section class="skills">
-		<div data-aos="fade-up" data-aos-anchor-placement="top-center">
+	<section class="skill">
+
+		<div data-aos="fade-right" data-aos-anchor-placement="top-center" class="statement">
+		 	<span> I like to create things </span>
+		</div>
+		<div data-aos="fade-left" data-aos-anchor-placement="top-center" data-aos-offset="50" class="statement">
+		 	<span> break things </span>
+		</div>
+		<div data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-offset="50" class="statement">
+		 	<span> and learn how they work. </span>
+		</div>
+		<div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-offset="50" class="statement2">
+		 	<span> Here's a summary of my skills </span>
+		</div>
+
+		<div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-offset="50">
 			<ul id="skill">
 				<li><span class="bar graphic-design"></span><h3>Graphic Design</h3></li>
 				<li><span class="bar html-css"></span><h3>Html // Css</h3></li>
